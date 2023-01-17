@@ -31,7 +31,7 @@
 <div class="container" id= "slogan">
 
     <div class="starter-template" style="padding-top: 50px;">
-        <h1>10 000 chez les autres ne vaudra jamais 1 bon chez soit !!!</h1>
+        <h1>10 000 chez les autres ne vaudra jamais 1 bon chez soi !!!</h1>
         <p>Trouvez l'appart de vos rêves en un instant</p>
     </div>
 
