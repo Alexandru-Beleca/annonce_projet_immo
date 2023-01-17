@@ -1,0 +1,13 @@
+{
+  "name": "annonce_immo",
+  "version": "1.0.0",
+  "description": "Annonce_immo",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass asset/sass/index.scss asset/css/app.css --watch --style=compressed"
+  },
+  "dependencies": {
+    "nodemodule": "^0.3.0"
+  }
+}
+
