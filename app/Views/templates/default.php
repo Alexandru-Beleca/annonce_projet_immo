@@ -31,7 +31,7 @@
 <div class="container" id= "slogan">
 
     <div class="starter-template" style="padding-top: 50px;">
-        <h1>Un Bon chez soit faut 10 000 chez les autres !!!</h1>
+        <h1>Un Bon chez soit vaut 10 000 chez les autres !!!</h1>
         <p>Trouvez l'appart de vos rêves en un instant</p>
     </div>
 
