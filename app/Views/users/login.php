@@ -9,3 +9,4 @@
     <?= $form->input('password', 'Mot de passe', ['type' => 'password']); ?>
     <button class="mt-2 btn btn-primary">Envoyer</button>
 </form>
+<style type="text/css">#slogan{display: none;}</style>

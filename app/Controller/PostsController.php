@@ -3,9 +3,10 @@
 namespace App\Controller;
 
 use Core\Controller\Controller;
-
+use \App;
 class PostsController extends AppController{
 
+    protected  $template = 'default';
     public function __construct(){
         parent::__construct();
         $this->loadModel('Post');

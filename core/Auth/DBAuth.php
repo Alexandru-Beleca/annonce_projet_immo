@@ -18,11 +18,6 @@ class DBAuth {
         return false;
     }
 
-    /**
-     * @param $username
-     * @param $password
-     * @return boolean
-     */
     public function login($username, $password){
         $user = $this->db->prepare('SELECT * FROM users WHERE username = ?', [$username], null, true);
         var_dump(sha1($password));

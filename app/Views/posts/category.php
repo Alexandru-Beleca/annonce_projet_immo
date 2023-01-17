@@ -62,6 +62,7 @@
                   
                     <style type="text/css">
                     .map__image path{fill:#1496C2;} .map__image path:hover{fill:#fff;}
+                    #slogan{display: none;}
                     </style>
         </ul>
     </div>

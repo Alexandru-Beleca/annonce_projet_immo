@@ -20,3 +20,4 @@
         </ul>
     </div>
 </div>
+<style type="text/css">#slogan{display: none;}</style>

@@ -22,19 +22,13 @@
 
 <div class="container">
 
-    <div class="post-template" style="padding-top: 50px;">
+    <div class="search-template" style="padding-top: 50px;">
         <?= $content; ?>
     </div>
 
 </div>
 
-<div class="container" id= "slogan">
-
-    <div class="starter-template" style="padding-top: 50px;">
-        <h1>Un Bon chez soit faut 10 000 chez les autres !!!</h1>
-        <p>Trouvez l'appart de vos rêves en un instant</p>
-    </div>
-
+<div class="container">
 </div><!-- /.container -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

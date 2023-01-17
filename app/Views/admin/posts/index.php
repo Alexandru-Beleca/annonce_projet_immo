@@ -28,4 +28,5 @@
         <?php endforeach; ?>
     </tbody>
 </table>
-
+<style type="text/css">#slogan{display: none;}
+                    </style>

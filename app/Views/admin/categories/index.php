@@ -9,6 +9,7 @@
     <tr>
         <td>ID</td>
         <td>Titre</td>
+        <td>Status</td>
         <td>Actions</td>
     </tr>
     </thead>
@@ -17,6 +18,7 @@
         <tr>
             <td><?= $category->id; ?></td>
             <td><?= $category->titre; ?></td>
+            <td><?= $category->status; ?></td>
             <td>
                 <a class="btn btn-primary" href="?p=admin.categories.edit&id=<?= $category->id; ?>">Editer</a>
                 <form action="?p=admin.categories.delete" method="post" style="display: inline;">
@@ -28,4 +30,6 @@
         <?php endforeach; ?>
     </tbody>
 </table>
-
+<style type="text/css">
+                    #slogan{display: none;}
+                    </style>

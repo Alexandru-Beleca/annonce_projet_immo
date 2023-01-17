@@ -4,17 +4,37 @@ namespace App\Controller;
 
 use Core\Controller\Controller;
 use \App;
+class SearchController extends AppController{
 
-class SearchController extends Controller{
-
-    protected  $template = 'default';
-
+    protected  $template = 'search';
     public function __construct(){
-        $this->viewPath = ROOT . '/app/Views/';
+        parent::__construct();
+        $this->loadModel('Search');
+        $this->loadModel('Category');
+
     }
 
-    protected function loadModel($model_name){
-        $this->$model_name = App::getInstance()->getTable($model_name);
+    public function index(){
+        $posts = $this->Post->last();
+        $categories = $this->Category->all();
+        $this->render('search.index', compact('posts', 'categories'));
+    }
+public function test(){
+    $this->render('posts.test', compact('posts', 'categories'));
+}
+    public function category(){
+        $categorie = $this->Category->find($_GET['id']);
+        if($categorie === false){
+            $this->notFound();
+        }
+        $articles = $this->Post->lastByCategory($_GET['id']);
+        $categories = $this->Category->all();
+        $this->render('search.category', compact('articles', 'categories', 'categorie'));
+    }
+
+    public function show(){
+        $article = $this->Post->findWithCategory($_GET['id']);
+        $this->render('search.show', compact('article'));
     }
 
 }
